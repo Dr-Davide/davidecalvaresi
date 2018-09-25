@@ -1,0 +1,204 @@
+<!-- Start Recent Projects -->
+                <div class="recent-projects">
+                	<h4 class="title"><span>Recent Projects</span></h4>
+                    <div class="projects-carousel touch-carousel">
+                    
+                    	<!-- Start Project Item -->
+                    	<div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <!-- Start Project Thumb -->
+                                <div class="portfolio-thumb">
+                                    <a class="lightbox" data-lightbox-type="ajax" href="https://vimeo.com/78468485">
+                                        <div class="thumb-overlay"><i class="icon-video-1"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/333" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Website</span>
+                                        <span>Drawing</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>7</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                        <!-- Start Project Item -->
+                        <div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <!-- Start Project Thumb -->
+                                <div class="portfolio-thumb">
+                                    <a class="lightbox" title="This is an image title" href="http://placehold.it/1024x620/eee">
+                                        <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/444" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Logo</span>
+                                        <span>Animation</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>4</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                        <!-- Start Project Item -->
+                        <div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <div class="portfolio-thumb">
+                                    <a href="#">
+                                        <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/333" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Drawing</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>13</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                        <!-- Start Project Item -->
+                        <div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <!-- Start Project Thumb -->
+                                <div class="portfolio-thumb">
+                                    <a href="#">
+                                        <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/444" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Website</span>
+                                        <span>Ilustration</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>9</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                        <!-- Start Project Item -->
+                        <div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <!-- Start Project Thumb -->
+                                <div class="portfolio-thumb">
+                                    <a class="lightbox" title="This is an image title" href="http://placehold.it/1024x620/eee">
+                                        <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/333" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Logo</span>
+                                        <span>Drawing</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>3</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                        <!-- Start Project Item -->
+                        <div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <!-- Start Project Thumb -->
+                                <div class="portfolio-thumb">
+                                    <a href="#">
+                                        <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/444" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Animation</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>6</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                        <!-- Start Project Item -->
+                        <div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <!-- Start Project Thumb -->
+                                <div class="portfolio-thumb">
+                                    <a class="lightbox" title="This is an image title" href="http://placehold.it/1024x620/eee">
+                                        <div class="thumb-overlay"><i class="icon-resize-full"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/333" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Website</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>10</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                        <!-- Start Project Item -->
+                        <div class="portfolio-item item">
+                        	<div class="portfolio-border">
+                                <!-- Start Project Thumb -->
+                                <div class="portfolio-thumb">
+                                    <a href="#">
+                                        <div class="thumb-overlay"><i class="icon-link-1"></i></div>
+                                        <img alt="" src="http://placehold.it/550x400/444" />
+                                    </a>
+                                </div>
+                                <!-- End Project Thumb -->
+                                <!-- Start Project Details -->
+                                <div class="portfolio-details">
+                                    <a href="#">
+                                        <h4>Lorem Ipsum Dolor</h4>
+                                        <span>Ilustration</span>
+                                        <span>Animation</span>
+                                    </a>
+                                    <a href="#" class="like-link"><i class="icon-heart-1"></i><span>8</span></a>
+                                </div>
+                                <!-- End Project Details -->
+                            </div>
+                    	</div>
+                        <!-- End Project Item -->
+                        
+                	</div>
+                </div>
+                <!-- End Recent Projects -->

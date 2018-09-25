@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+types: conference, journal, poster, book
+-->
+
+<publications>
+	
+	<publication>
+		<type>poster</type>
+		<title>Title2</title>
+		<authors>auth3, auth4</authors>
+		<in>conf YY</in>
+		<day>D1</day>
+		<month>M1</month>
+		<year>2016</year>
+		<location>loc1</location>
+		<url>x</url>
+	</publication>
+
+	<publication>
+		<type>poster</type>
+		<title>"Reconciling System Design Options with Domain and Elicited Requirements - A Goal Modeling Approach"</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Eric Yu &amp; Arnon Sturm.</authors>
+		<in>Conference - Consortium for Software Engineering Research.</in>
+		<day>Fall</day>
+		<month> - </month>
+		<year>2013</year>
+		<location>Markham, Ontario, Canada.</location>
+		<url>https://www.researchgate.net/publication/263651533_Reconciling_System_Design_Options_with_Domain_and_Elicited_Requirements_-_A_Goal_Modeling_Approach</url>
+	</publication>
+
+	<publication>
+		<type>book</type>
+		<title>"Agent-based systems for telerehabilitation: strengths, limitations and future challenges"</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Michael Schumacher, Mauro Marinoni, Roger Hilfiker, Aldo F. Dragoni, &amp; Giorgio Buttazzo.</authors>
+		<in>Book - Agents and Multi-Agent Systems for Health Care: 10th International Workshop, A2HC 2017, São Paulo, Brazil, May 8-9, 2017, and International Workshop, A-HEALTH 2017, Porto, Portugal, June 23, 2017, Revised and Extended Selected Papers.</in>
+		<day>23</day>
+		<month>June</month>
+		<year>2017</year>
+		<location>São Paulo, Brazil</location>
+		<url>https://www.researchgate.net/publication/316790326_Agent-Based_Systems_for_Telerehabilitation_Strengths_Limitations_and_Future_Challenges</url>
+	</publication>
+
+	<publication>
+		<type>book</type>
+		<title>"An Event Calculus agent mind applied to diabetes monitoring"</title>
+		<authors>Nicola Falcionelli, Paolo Sernani, Stefano Bromuri, Dagmawi N. Mekuria, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Michael Schumacher, Aldo F. Dragoni, &amp; Albert Brugues. </authors>
+		<in>Book - Agents and Multi-Agent Systems for Health Care: 10th International Workshop, A2HC 2017, São Paulo, Brazil, May 8-9, 2017, and International Workshop, A-HEALTH 2017, Porto, Portugal, June 23, 2017, Revised and Extended Selected Papers.</in>
+		<day>23</day>
+		<month>June</month>
+		<year>2017</year>
+		<location>São Paulo, Brazil</location>
+		<url>https://books.google.ch/books?hl=en&amp;lr=&amp;id=QmRADwAAQBAJ&amp;oi=fnd&amp;pg=PA40&amp;dq=info:V0Ip4OzjZzsJ:scholar.google.com&amp;ots=9fxz-LLZZu&amp;sig=P9pwNOuQlbJ0dwcnXTMPUPCGMvg&amp;redir_esc=y#v=onepage&amp;q&amp;f=false</url>
+	</publication>
+
+</publications>
