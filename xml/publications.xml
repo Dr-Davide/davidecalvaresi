@@ -1,25 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 
 types: conference, journal, poster, book
+
+Template:
+
+<publication>
+		<type>X</type>
+		<title>X</title>
+		<authors>X</authors>
+		<in>X</in>
+		<day>X</day>
+		<month>X</month>
+		<year>X</year>
+		<location>X</location>
+		<url>X</url>
+	</publication>
+
 -->
 
 <publications>
 	
 	<publication>
-		<type>poster</type>
-		<title>Title2</title>
-		<authors>auth3, auth4</authors>
-		<in>conf YY</in>
+		<type>journal</type>
+		<title>"A Limb Tracking Platform for TeleRehabilitation".</title>
+		<authors>Pasquale Buonocunto, Andrea Giantomassi, Mauro Marinoni, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, &amp; Giorgio Buttazzo.</authors>
+		<in>Journal: ACM Transactions on Cyber-Physical Systems (TCPS), (to appear)</in>
 		<day>D1</day>
 		<month>M1</month>
+		<year>2018</year>
+		<location>ACM</location>
+		<url>https://www.researchgate.net/publication/322223599_A_Limb_Tracking_Platform_for_Tele-Rehabilitation</url>
+	</publication>
+
+	<publication>
+		<type>journal</type>
+		<title>"Exploring the ambient assisted living domain: a systematic review".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Daniel Cesarini, Paolo Sernani, Mauro Marinoni, Aldo F. Dragoni, &amp; Arnon Sturm.</authors>
+		<in>Journal of Ambient Intelligence and Humanized Computing, 1-19</in>
+		<day></day>
+		<month></month>
+		<year>2017</year>
+		<location>Springer</location>
+		<url>https://www.researchgate.net/publication/301901787_Exploring_the_ambient_assisted_living_domain_A_systematic_review</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Timing Reliability for Local Schedulers in Multi-Agent Systems".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Giuseppe Albanese, Mauro Marinoni, Fabien Dubosson, Paolo Sernani, Aldo F. Dragoni, &amp; Michael Schumacher</authors>
+		<in>Proceedings of the: 1st International Workshop on Real-Time compliant Multi-Agent Systems.</in>
+		<day>15</day>
+		<month>July</month>
+		<year>2018</year>
+		<location>Stockholm, Sweden.</location>
+		<url>https://www.researchgate.net/publication/326368783_Timing_Reliability_for_Local_Schedulers_in_Multi-Agent_Systems</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"A Task-sets Generator for Supporting the Analysis of Multi-Agent Systems under General Purpose and Real-Time Conditions".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Giuseppe Albanese, Fabien Dubosson, Mauro Marinoni, &amp; Michael Schumacher.</authors>
+		<in>Proceedings of the 1st International Workshop on Real-Time compliant Multi-Agent Systems</in>
+		<day>15</day>
+		<month>July</month>
+		<year>2018</year>
+		<location> Stockholm, Sweden.</location>
+		<url>https://www.researchgate.net/publication/326368990_A_Task-sets_Generator_for_Supporting_the_Analysis_of_Multi-Agent_Systems_under_General_Purpose_and_Real-Time_Conditions</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Multi-Agent Systems and Blockchain: Results from a Systematic Literature Review".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Dubovitskaya Alevtina, Calbimonte Jeam-Paul, Taveter Kuldar, &amp; Schumacher Michael.</authors>
+		<in>Proceedings of the: 16th International Conference on Practical Applications of Agents and Multi-Agent Systems.</in>
+		<day>21</day>
+		<month>June</month>
+		<year>2018</year>
+		<location>Toledo, Spain.</location>
+		<url>https://www.researchgate.net/profile/Davide_Calvaresi/publication/324444516_Multi-Agent_Systems_and_Blockchain_Results_from_a_Systematic_Literature_Review/links/5ace08b8aca2723a334194b2/Multi-Agent-Systems-and-Blockchain-Results-from-a-Systematic-Literature-Review.pdf</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"MAXIM-GPRT: A Simulator of local Schedulers, Negotiations, and Communication for Multi-Agent Systems in General-Purpose and Real-Time Scenarios".</title>
+		<authors>Albanese Giuseppe, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Sernani Paolo, Dubosson Fabien, Dragoni Aldo F., &amp; Schumacher Michael.</authors>
+		<in>Proceedings of the: 16th International Conference on Practical Applications of Agents and Multi-Agent Systems.</in>
+		<day>20</day>
+		<month>June</month>
+		<year>2018</year>
+		<location>Toledo, Spain.</location>
+		<url>https://www.researchgate.net/profile/Davide_Calvaresi/publication/324445158_MAXIM-GPRT_A_Simulator_of_local_Schedulers_Negotiations_and_Communication_for_Multi-Agent_Systems_in_General-Purpose_and_Real-Time_Scenarios/links/5ace0981aca2723a3341956c/MAXIM-GPRT-A-Simulator-of-local-Schedulers-Negotiations-and-Communication-for-Multi-Agent-Systems-in-General-Purpose-and-Real-Time-Scenarios.pdf</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Multi-Agent Systems Negotiation Protocols for Cyber-Physical Systems: Results from a Systematic Literature Review".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Kevin Appoggetti, Luca Lustrissimini, Mauro Marinoni, Paolo Sernani, Aldo F. Dragoni, &amp; Michael Schumacher.</authors>
+		<in>Proceedings of the: 10th International Conterence on Agents and Artificial Intelligence.</in>
+		<day>16</day>
+		<month>January</month>
+		<year>2018</year>
+		<location>Funchal, Madeira-Portugal</location>
+		<url>https://www.researchgate.net/publication/322223602_Multi-Agent_Systems'_Negotiation_Protocols_for_Cyber-Physical_Systems_Results_from_a_Systematic_Literature_Review</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Local Scheduling in Multi-Agent Systems: getting ready for safety-critical scenarios".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Mauro Marinoni, Luca Lustrissimini, Kevin Appoggetti, Paolo Sernani, Aldo F. Dragoni, Michael Schumacher, &amp; Giorgio Buttazzo.</authors>
+		<in>Proceedings of the: 15th European Conference on Multi-Agent Systems.</in>
+		<day>15</day>
+		<month>December</month>
+		<year>2017</year>
+		<location>Evrì, France</location>
+		<url>https://www.researchgate.net/publication/321747156_Local_Scheduling_in_Multi-Agent_Systems_getting_ready_for_safety-critical_scenarios</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Multi-Agent Interactions on the Web through Linked Data Notifications"</title>
+		<authors>Jean-Paul Calbimonte, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, &amp; Michael Schumacher.</authors>
+		<in>Proceedings of the: 15th European Conference on Multi-Agent Systems.</in>
+		<day>15</day>
+		<month>December</month>
+		<year>2017</year>
+		<location>Evrì, France</location>
+		<url>https://www.researchgate.net/publication/321747154_Multi-Agent_Interactions_on_the_Web_through_Linked_Data_Notifications</url>
+	</publication>
+
+		<publication>
+		<type>conference</type>
+		<title>"The Challenge of Real-Time Multi-Agent Systems for Enabling IoT and CPS".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Mauro Marinoni, Arnon Sturm, Michael Schumacher, &amp; Giorgio Buttazzo.</authors>
+		<in>conf YY</in>
+		<day>24</day>
+		<month>August</month>
+		<year>2017</year>
+		<location>Leipzig, Germany</location>
+		<url>https://www.researchgate.net/publication/319051058_The_challenge_of_real-time_multi-agent_systems_for_enabling_IoT_and_CPS</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Agent-based systems for telerehabilitation: strengths, limitations and future challenges".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Michael Schumacher, Mauro Marinoni, Roger Hilfiker, Aldo F. Dragoni, &amp; Giorgio Buttazzo.</authors>
+		<in>Proceedings of the: 10th Workshop on Agents Applied in Health Care @ AAMAS.</in>
+		<day>12</day>
+		<month>May</month>
+		<year>2017</year>
+		<location>Sao Paulo, Brazil</location>
+		<url>https://www.researchgate.net/publication/316790326_Agent-Based_Systems_for_Telerehabilitation_Strengths_Limitations_and_Future_Challenges</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"An Event Calculus agent mind applied to diabetes monitoring".</title>
+		<authors>Nicola Falcionelli, Paolo Sernani, Stefano Bromuri, Dagmawi N. Mekuria, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Michael Schumacher, Aldo F. Dragoni, &amp; Albert Brugues.</authors>
+		<in>Proceedings of the: 10th Workshop on Agents Applied in Health Care @ AAMAS.</in>
+		<day>12</day>
+		<month>May</month>
+		<year>2017</year>
+		<location>Sao Paulo, Brazil</location>
+		<url>https://www.researchgate.net/publication/316790326_Agent-Based_Systems_for_Telerehabilitation_Strengths_Limitations_and_Future_Challenges</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Exploiting a touchless interaction to drive a wireless mobile robot powered by a real-time operating system"</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Andrea Vincentini, Antonio Di Guardo, Daniel Cesarini, Paolo Sernani, &amp; Aldo F. Dragoni.</authors>
+		<in>Proceedings of the: 2nd International Conference Recent Trends and Applications in Computer Science and Information Technology.</in>
+		<day>16</day>
+		<month>November</month>
 		<year>2016</year>
-		<location>loc1</location>
-		<url>x</url>
+		<location>Tirana, Albania.</location>
+		<url>https://www.researchgate.net/publication/313037112_Exploiting_a_touchless_interaction_to_drive_a_wireless_mobile_robot_powered_by_a_real-time_operating_system</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"A touchless human-machine interface for the control of an elevator".</title>
+		<authors>Luca Montanaro, Paolo Sernani, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, &amp; Aldo F. Dragoni.</authors>
+		<in>Proceeding of the: 2nd International Conference Recent Trends and Applications in Computer Science and Information Technology </in>
+		<day>18</day>
+		<month>November</month>
+		<year>2016</year>
+		<location>Tirana, Albania.</location>
+		<url>https://www.researchgate.net/publication/313037202_A_touchless_human-machine_interface_for_the_control_of_an_elevator</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"MEDIATION: an eMbEddeD system for auditory feedback of hand-water InterAcTION while swimming".</title>
+		<authors>Daniel Cesarini, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Chiara Farnesi, Stefano Frediani, B.E. Ungerechts, &amp; T. Hermann.</authors>
+		<in>Proceedings of the: 11th conference of the International Sports Engineering Association (ISEA 2016) </in>
+		<day>11</day>
+		<month>July</month>
+		<year>2016</year>
+		<location>Delft, Netherland.</location>
+		<url>https://www.researchgate.net/publication/305080681_MEDIATION_An_eMbEddeD_System_for_Auditory_Feedback_of_Hand-water_InterAcTION_while_Swimming" target="_blank</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Testing Intelligent Solutions for the Ambient Assisted Living in a Simulator".</title>
+		<authors>Paolo Sernani, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Matteo Pierdicca, Enrico Morbidelli, &amp; Aldo F. Dragoni.</authors>
+		<in>Proceedings of the: 9th International Conference on PErvasive Technologies Related to Assistive Environments (PETRA 2016) </in>
+		<day>19</day>
+		<month>June</month>
+		<year>2016</year>
+		<location>Corfu Island, Greece.</location>
+		<url>https://www.researchgate.net/publication/304988460_Testing_Intelligent_Solutions_for_the_Ambient_Assisted_Living_in_a_Simulator</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"A Framework based on Real-Time OS and Multi-Agents for intelligent autonomous robot competitions". </title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Paolo Sernani, Mauro Marinoni, Andrea Claudi, Alessio Balsini, Aldo F. Dragoni, &amp; Giorgio Buttazzo.</authors>
+		<in>Proceedings of the: 11th IEEE International Symposium on Industrial Embedded Systems (SIES 2016)</in>
+		<day>23</day>
+		<month>MAy</month>
+		<year>2016</year>
+		<location>Krakow, Poland.</location>
+		<url>https://www.researchgate.net/publication/303438161_A_Framework_based_on_Real-Time_OS_and_Multi-Agents_for_intelligent_autonomous_robot_competitions</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title> "Non-intrusive Patient Monitoring for Supporting General Practitioners in Following Diseases Evolution".</title>
+		<authors>Daniel Cesarini, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Mauro Marinoni, Paquale Buonocunto, &amp; Giorgio Buttazzo.</authors>
+		<in>Proceedings of the: 3rd International Work-Conference on Bioinformatics and Biomedical Engineering (IWBBIO 2015).</in>
+		<day>15</day>
+		<month>April</month>
+		<year>2015</year>
+		<location>Granada, Spain.</location>
+		<url>https://www.researchgate.net/publication/279850187_Non-intrusive_Patient_Monitoring_for_Supporting_General_Practitioners_in_Following_Diseases_Evolution</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Simplifying Tele-rehabilitation Devices for Their Practical Use in Non-clinical Environments".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Daniel Cesarini, Mauro Marinoni, Paquale Buonocunto, Stefania Bandinelli, &amp; Giorgio Buttazzo</authors>
+		<in>Proceedings of the: 3rd International Work-Conference on Bioinformatics and Biomedical Engineering (IWBBIO 2015).</in>
+		<day>15</day>
+		<month>April</month>
+		<year>2015</year>
+		<location>Granada, Spain.</location>
+		<url>https://www.researchgate.net/publication/279850423_Simplifying_Tele-rehabilitation_Devices_for_Their_Practical_Use_in_Non-clinical_Environments</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Using a Virtual Environment to Test a Mobile App for the Ambient Assisted Living".</title>
+		<authors>Paolo Calvaresi, Aldo Franco Dragoni, Matteo Pierdicca, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, &amp; Paolo Sernani</authors>
+		<in>roceedings of the: 4th International Workshop on Artificial Intelligence and Assistive Medicine (AI-AM / NetMed2015).</in>
+		<day>20</day>
+		<month>June</month>
+		<year>2015</year>
+		<location>Pavia, Italy.</location>
+		<url>https://www.researchgate.net/publication/279850403_Using_a_Virtual_Environment_to_Test_a_Mobile_App_for_the_Ambient_Assisted_Living</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"A Virtual Caregiver for the AAL: Testing in a 3D Simulator"</title>
+		<authors>Paolo Calvaresi, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Paolo Sernani, Matteo Pierdicca, Enrico Morbidelli, Daniele Accattoli, &amp; Aldo Franco Dragoni</authors>
+		<in>Proceedings of the: 13th Symposium of the Italian Association for Artificial Intelligence (AI*IA 2014).</in>
+		<day>10</day>
+		<month>December</month>
+		<year>2014</year>
+		<location>Pisa, Italy.</location>
+		<url>https://www.researchgate.net/publication/270217385_A_Virtual_Caregiver_for_the_AAL_Testing_in_a_3D_Simulator</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"3D Simulation for Ambient Assisted Living: Interaction through Mobile Application".</title>
+		<authors>Paolo Calvaresi, Aldo Franco Dragoni, Matteo Pierdicca, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, &amp; Paolo Sernani</authors>
+		<in>Proceedings of the: 1st International Conference 'Recent Trends and Applications in Computer Science and Information Technology'.</in>
+		<day>12</day>
+		<month>December</month>
+		<year>2014</year>
+		<location>Tirana, Albania.</location>
+		<url>https://www.researchgate.net/publication/270217509_3D_Simulation_for_Ambient_Assisted_Living_Interaction_through_Mobile_Application</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"A goal-oriented requirements engineering approach for the ambient assisted living domain".</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Andrea Claudi, Aldo Franco Dragoni, Eric Yu, Daniele Accattoli, &amp; Paolo Sernani</authors>
+		<in>Proceedings of the: 7th International Conference on Pervasive Technologies Related to Assistive Environments PETRA).</in>
+		<day>27</day>
+		<month>May</month>
+		<year>2014</year>
+		<location>Rhodes Island, Greece.</location>
+		<url>https://www.researchgate.net/publication/263809876_A_Goal-Oriented_Requirements_Engineering_Approach_for_the_Ambient_Assisted_Living_Domain</url>
+	</publication>
+
+	<publication>
+		<type>conference</type>
+		<title>"Exploring domain requirements and technology solutions: a goal modeling approach"</title>
+		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Arnon Sturm, Eric Yu, &amp; Aldo Franco Dragoni</authors>
+		<in>Proceedings of the: 7th International iStar Workshop (iStar14).</in>
+		<day>16</day>
+		<month>June</month>
+		<year>2014</year>
+		<location>Thessaloniki, Greece.</location>
+		<url>https://www.researchgate.net/publication/262850719_Exploring_Domain_Requirements_and_Technology_Solutions_A_Goal_Modeling_Approach</url>
+	</publication>
+
+
+
+
+
+
+
+
+	<publication>
+		<type>poster</type>
+		<title>"eHealth_Summit".</title>
+		<authors>Alevtina Dubovitskaya, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, &amp; Michael Schumacher.</authors>
+		<in>Conference - Consortium for Software Engineering Research.</in>
+		<day>Fall</day>
+		<month> - </month>
+		<year>2013</year>
+		<location>Markham, Ontario, Canada.</location>
+		<url>https://www.researchgate.net/publication/263651533_Reconciling_System_Design_Options_with_Domain_and_Elicited_Requirements_-_A_Goal_Modeling_Approach</url>
 	</publication>
 
 	<publication>
 		<type>poster</type>
-		<title>"Reconciling System Design Options with Domain and Elicited Requirements - A Goal Modeling Approach"</title>
+		<title>"Reconciling System Design Options with Domain and Elicited Requirements - A Goal Modeling Approach".</title>
 		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Eric Yu &amp; Arnon Sturm.</authors>
 		<in>Conference - Consortium for Software Engineering Research.</in>
 		<day>Fall</day>
@@ -31,7 +341,7 @@ types: conference, journal, poster, book
 
 	<publication>
 		<type>book</type>
-		<title>"Agent-based systems for telerehabilitation: strengths, limitations and future challenges"</title>
+		<title>"Agent-based systems for telerehabilitation: strengths, limitations and future challenges".</title>
 		<authors>&lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Michael Schumacher, Mauro Marinoni, Roger Hilfiker, Aldo F. Dragoni, &amp; Giorgio Buttazzo.</authors>
 		<in>Book - Agents and Multi-Agent Systems for Health Care: 10th International Workshop, A2HC 2017, São Paulo, Brazil, May 8-9, 2017, and International Workshop, A-HEALTH 2017, Porto, Portugal, June 23, 2017, Revised and Extended Selected Papers.</in>
 		<day>23</day>
@@ -43,7 +353,7 @@ types: conference, journal, poster, book
 
 	<publication>
 		<type>book</type>
-		<title>"An Event Calculus agent mind applied to diabetes monitoring"</title>
+		<title>"An Event Calculus agent mind applied to diabetes monitoring".</title>
 		<authors>Nicola Falcionelli, Paolo Sernani, Stefano Bromuri, Dagmawi N. Mekuria, &lt;strong&gt;Davide Calvaresi&lt;/strong&gt;, Michael Schumacher, Aldo F. Dragoni, &amp; Albert Brugues. </authors>
 		<in>Book - Agents and Multi-Agent Systems for Health Care: 10th International Workshop, A2HC 2017, São Paulo, Brazil, May 8-9, 2017, and International Workshop, A-HEALTH 2017, Porto, Portugal, June 23, 2017, Revised and Extended Selected Papers.</in>
 		<day>23</day>

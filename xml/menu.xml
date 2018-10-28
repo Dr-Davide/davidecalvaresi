@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+types: single-item, parent-item, child-item
+
+Template:
+
+	<social>
+		<type></type>
+		<title></title>
+		<url></url>
+		<aclass></aclass>
+		<iclass></iclass>
+	</social>
+
+-->
+
+<menu>
+	
+	<button>
+		<type>single-item</type>
+		<title>Home</title>
+		<url>index.html</url>
+		<parent-item></parent-item>
+	</button>
+
+	<button>
+		<type>parent-item</type>
+		<title>Research</title>
+		<url></url>
+		<parent-item></parent-item>
+	</button>
+
+	<button>
+		<type>child-item</type>
+		<title>Publications</title>
+		<url>publications.html</url>
+		<parent-item>Research</parent-item>
+	</button>
+
+	<button>
+		<type>child-item</type>
+		<title>Research Areas</title>
+		<url>res_areas.html</url>
+		<parent-item>Research</parent-item>
+	</button>
+
+	<button>
+		<type>child-item</type>
+		<title>Theses Supervised</title>
+		<url>theses_sup.html</url>
+		<parent-item>Research</parent-item>
+	</button>
+
+	<button>
+		<type>child-item</type>
+		<title>Theses Offered</title>
+		<url>theses_off.html</url>
+		<parent-item>Research</parent-item>
+	</button>
+
+
+	<button>
+		<type>parent-item</type>
+		<title>Interests</title>
+		<url></url>
+		<parent-item></parent-item>
+	</button>
+
+	<button>
+		<type>child-item</type>
+		<title>Movies</title>
+		<url>movies.html</url>
+		<parent-item>Interests</parent-item>
+	</button>
+
+	<button>
+		<type>child-item</type>
+		<title>Music</title>
+		<url>music.html</url>
+		<parent-item>Interests</parent-item>
+	</button>
+
+	<button>
+		<type>child-item</type>
+		<title>Sports</title>
+		<url>sports.html</url>
+		<parent-item>Interests</parent-item>
+	</button>
+	
+	<button>
+		<type>single-item</type>
+		<title>Get my CV</title>
+		<url>cv/Davide_Calvaresi_cv.pdf</url>
+		<parent-item></parent-item>
+	</button>
+
+
+
+
+</menu>

@@ -67,6 +67,10 @@
 
 	<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+     <!-- my scripts -->
+    <script type="text/javascript" src="js/loadXMLMenu.js"></script>
+    <script type="text/javascript" src="js/loadXMLSocials.js"></script>
+    
 	
 </head>
 <body>
@@ -86,53 +90,13 @@
                             <!-- Start Contact Info -->
 							<ul class="contact-details">
                             	<!-- <li><a href="#"><i class="icon-phone-1"></i> +12 345 678 000</a></li> -->
-                                <li><a href="mailto:imdavide@gmail.com"><i class="icon-mail-1"></i>imdavide@gmail.com</a></li>
+                                <li id="email"></li>
                             </ul>
                             <!-- End Contact Info -->
 						</div>
 						<div class="col-md-6">
                             <!-- Start Social Links -->
-							<ul class="social-list">
-                           
-								<li>
-									<a class="google sh-tooltip" data-placement="bottom" title="Scholar" target="_blank" href="https://scholar.google.it/citations?user=n1TS5xsAAAAJ&hl=it"><i class="ai ai-google-scholar"></i></a>
-								</li>
-                                <li>
-                                    <a class="twitter sh-tooltip" data-placement="bottom" title="Researchgate" target="_blank" href="https://www.researchgate.net/profile/Davide_Calvaresi"><i class="ai ai-researchgate"></i></a>
-                                </li>
-                                <li>
-                                    <a class="facebook sh-tooltip" data-placement="bottom" title="Facebook" target="_blank" href="https://www.facebook.com/imdavide"><i class="icon-facebook-2"></i></a>
-                                </li>
-                                <li>
-                                    <a class="linkdin sh-tooltip" data-placement="bottom" title="Linkedin" target="_blank" href="http://www.linkedin.com/in/davidecalvaresi/"><i class="icon-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a class="skype sh-tooltip" data-placement="bottom" title="Skype" href="#"><i class="icon-skype-2"></i></a>
-                                </li>
-                                <!--
-								<li>
-									<a class="twitter sh-tooltip" data-placement="bottom" title="Twitter" href="#"><i class="icon-twitter-2"></i></a>
-								</li>
-								<li>
-									<a class="google sh-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="icon-gplus"></i></a>
-								</li>
-								<li>
-									<a class="dribbble sh-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="icon-dribbble-2"></i></a>
-								</li>
-                                <li>
-									<a class="flickr sh-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="icon-flickr-1"></i></a>
-								</li>
-                                <li>
-									<a class="tumblr sh-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="icon-tumblr"></i></a>
-								</li>
-                                <li>
-									<a class="instgram sh-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="icon-instagramm"></i></a>
-								</li>
-                                <li>
-									<a class="vimeo sh-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="icon-vimeo-1"></i></a>
-								</li>
-                                -->
-							</ul>
+							<ul class="social-list" id="social-elements"></ul>
                             <!-- End Social Links -->
 						</div>
 					</div>
@@ -165,80 +129,7 @@
                         </div>
                         <!-- End Search -->
                         <!-- Start Navigation List -->
-						<ul class="nav navbar-nav navbar-right">
-							<li>
-								<a class="active" href="index.html">Home</a>
-                                <!--<ul class="dropdown">
-									<li><a href="index.html">Home Main Version</a></li>
-                                    <li><a href="index-01.html">Home Version 1</a></li>
-									<li><a href="index-02.html">Home Version 2</a></li>
-                                    <li><a href="index-03.html">Home Version 3</a></li>
-                                    <li><a class="active" href="index-04.html">Home Version 4</a></li>
-                                    <li><a href="index-05.html">Home Version 5</a></li>
-                                    <li><a href="index-06.html">Home Version 6</a></li>
-                                    <li><a href="index-07.html">Home Version 7</a></li>
-                                    <li><a href="index-08.html">Home Version 8</a></li>
-								</ul> -->
-							</li>
-							<li>
-								<a>Research</a>
-                                
-								<ul class="dropdown">
-									<li><a href="publications.html">Publications</a></li>
-                                    <li><a href="res_areas.html">Research Areas</a></li>
-                                    <li><a href="theses_sup.html">Theses Supervised</a></li>
-                                    <!--<li><a href="left-sidebar.html">Left Sidebar</a></li> 
-									<li><a href="404.html">404 Page</a></li>
-                                    -->
-								</ul>
-                                
-							</li>
-                            <li>
-                            <!--
-								<a href="#">Shortcodes</a>
-								<ul class="dropdown">
-									<li><a href="tabs.html">Tabs</a></li>
-                                    <li><a href="lists.html">Lists</a></li>
-                                    <li><a href="alerts.html">Alerts</a></li>
-                                    <li><a href="divider.html">Divider</a></li>
-                                    <li><a href="buttons.html">Buttons</a></li>
-                                    <li><a href="dropcaps.html">Dropcaps</a></li>
-                                    <li><a href="action-box.html">Action Box</a></li>
-                                    <li><a href="icon-boxes.html">Icon Boxes</a></li>
-                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                    <li><a href="latest-posts.html">Latest Posts</a></li>
-                                    <li><a href="latest-projects.html">Latest Projects</a></li>
-                                    <li><a href="pricing.html">Pricing Tables</a></li>
-									<li><a href="animated-graphs.html">Animated Graphs</a></li>
-                                    <li><a href="accordion-toggles.html">Accordion & Toggles</a></li>
-                                    <li><a href="touch-slider-carousel.html">Touch Slider & Carousel</a></li>
-								</ul>
-							</li>
-                            -->
-							<li>
-								<a>Interests</a>
-								
-                                <ul class="dropdown">
-									<li><a href="movies.html">Movies</a></li>
-                                    <li><a href="portfolio-3.html">Music</a></li>
-									<li><a href="portfolio-4.html">Hobbies</a></li>
-                                    <li><a href="single-project.html">Sports</a></li>
-								</ul>
-							</li>
-                                <!--
-                            <li>
-								<a href="single-post.html">News</a>
-                            
-								<ul class="dropdown">
-									<li><a href="blog.html">Blog - right Sidebar</a></li>
-                                    <li><a href="blog-left-sidebar.html">Blog - Left Sidebar</a></li>
-                                    <li><a href="single-post.html">Blog Single Post</a></li>
-								</ul>
-                                
-							</li>
-                            -->
-							<li><a href="cv/Davide_Calvaresi_CV_11_2017.pdf" target="_blank">Get my CV</a></li>
-						</ul>
+						<ul class="nav navbar-nav navbar-right" id="menu"></ul>
                         <!-- End Navigation List -->
 					</div>
 				</div>
@@ -335,7 +226,7 @@
                                 
                                 data-speed="300"
                                 data-start="2500"
-                                data-easing="easeInOutExpo">Telerehabilitation
+                                data-easing="easeInOutExpo">Explainable AI
                             </div>
 
                             <!-- LAYER NR. 5 -->
@@ -605,7 +496,7 @@
                         <div class="clearfix"> </div>
                         
                         <!-- Start box Icon 3 -->
-                        <a href="cv/Davide_Calvaresi_CV_04_2018.pdf" target="_blank">
+                        <a href="cv/Davide_Calvaresi_cv.pdf" target="_blank">
                             <div class="col-md-12 service-box service-center">
                                 <div class="service-boxed">
                                     <div class="service-icon" style="margin-top:-25px;">
@@ -629,24 +520,40 @@
                                 <i class="icon-fork icon-medium-effect icon-effect-2"></i>
                             </div>
                             <div class="service-content" style="text-align: justify;">
-                                <p>Dr. Davide Calvaresi is currently a Postdoctoral researcher at the University of Applied Sciences and Arts Western Switzerland (since March 2018). He obtained his Ph.D. in Emerging Digital Technologies curriculum: Embedded Systems at the Scuola Superiore Sant'Anna (2014 - 2018). 
+                                <p>Dr. Davide Calvaresi is currently a Postdoctoral researcher at the University of Applied Sciences and Arts Western Switzerland (HES-SO), since March 2018. 
+                                <br><br>
+                                He obtained his Ph.D. in Emerging Digital Technologies curriculum: Embedded Systems at the Scuola Superiore Sant'Anna, Pisa, Italy (2014 - 2018). Dr. Calvaresi joined the <a href="https://www.hevs.ch/en/minisites/projects-products/aislab/" target="_blank">AISLAB</a> research group  at HES-SO in October 2016 to carry out daring new research in Real-Time Multi-Agent Systems (RT-MAS) and its possible applications in eHealth and safety-critical scenarios. 
+                                <br><br>
+                                He obtained his BSc and MSc in Information and Automation Engineering at Università Politecnica delle Marche. In his final year, he produced his master thesis at the University of Toronto working with Prof Eric Yu and Arnon Sturm. 
                                 <br>
-                                Dr. Calvaresi joined the AISLAB research group (directed by Prof Michael Schumacher) at the University of Applied Science Western Switzerland (HES-SO) in October 2016 to carry out daring new research in Real-Time Multi-Agent Systems (RT-MAS) and its possible applications in eHealth and safety-critical scenarios.
-                                <br> 
-                                He obtained his Master’s in Information and Automation Engineering at Università Politecnica delle Marche in 2014. In his final year, he spent six months at the University of Toronto working with Prof Eric Yu and Arnon Sturm on his master thesis, which was about modeling the Ambient Assisted Living (AAL) domain with the Goal-Oriented Requirement Engineering Technique and the i-star modeling language. Throughout his Ph.D. process, Davide became a reviewer for several journals (ACM Transactions on Cyber-Physical Systems, IEEE Transactions on Industrial Informatics, Autonomous Agents and Multiagent Systems, and Artificial Intelligence in Medicine) and conferences (ICAART 2017, EPIA 2017, A2HC 2017, SAC 2016, RTSS-CPS 2016, AIH 2018).
+                                Throughout his Ph.D. process, Davide became a reviewer for several journals (ACM Transactions on Cyber-Physical Systems, IEEE Transactions on Industrial Informatics, Autonomous Agents and Multi-Agent Systems, and Artificial Intelligence in Medicine, IEEE Access) and conferences (ICAART 2017, EPIA 2017, A2HC 2017, SAC 2016, RTSS-CPS 2016, AIH 2018).
                                 <br><br>
                                 He also has been Program Chair of the:<br>
-                                <li>1st International Workshop on Real-Time compliant Multi-Agent Systems (RTcMAS 2018),</li>
-                                <li>1st International Workshop on Blockchain Technologies for Multi-Agent Systems (BCT4MAS 2018),</li>
+                                - 1st Workshop on Real-Time compliant Multi-Agent Systems (RTcMAS 2018) @ AAMAS, ECAI, IJCAI 2018,<br>
+                                - 1st  Workshop on Blockchain for Multi-Agent Systems (BCT4MAS 2018 @WI 2018)<br>
+                                - 2nd Workshop on Blockchain for Multi-Agent Systems (BCT4MAS 2019 @PAAMS 2019),
+                                <br><br>
+                                - a member of the Program Committee of A2HC 2017 and AIH 2018, and<br>
+                                - guest editor of the Special Issue “Blockchain Technologies for Multi-Agent Systems" - MDPI (2018) .
+                                <br><br>
+                                Dr. Calvaresi honors:<br>
+                                - Best Paper Award (A2HC@AAMAS 2017),<br>
+                                - Best Social and Environmental ICT Idea Award (GSVC 2016),<br> 
+                                - Winner of Automotive and Service Category (Lee Kuan Yew Global Competition 2017),<br>
+                                - High-Tech Award (Lions Club International 2016),
+                                Changemakers for a Connected Society (EGO Ericsson 2015), and<br>
+                                - Best Business and High-Tech Ideas (StartCup Tuscany 2015).
+                                <br><br>
+                                Dr. Calvaresi grants:<br>
+                                - University of Évry: 1st Agreement Technologies Winter School, Dec 2017.
+                                - University of Gdansk: 19th European Agent Systems Summer School, Aug 2017.
+                                <br><br>
+                                Furthermore, he is co-founder and member of the scientific committee of Polo Tecnico Tecnologico in Ascoli Piceno, Italy (PTT-consortium), that aims at realizing joint research laboratories between university and industry; and co-founder of the startup Wriggle Solutions s.l.r.s pursuing the main project "SMARTTyre" (which addresses the safety on the road) recording the patent: IT102015000079497.
+                                <br><br>
+                                Currently, his research areas cover Real-Time Multi-Agent System, Blockchain for Multi-Agent Systems, assistive/telerehabilitation applications, and Explainability in Multi-Agent Systems. 
+                                <br><br>
+                                Dr. Calvaresi has 33 accepted papers, 159 citations, and h-index 7 (source: Google Scholar date: 22/10/2018)
 
-                                and a member of the Program Committee of A2HC 2017 and AIH 2018. 
-                                Moreover, Dr. Calvaresi has received the following honors: Best Paper Award (A2HC@AAMAS 2017), Best Social, and Environmental ICT Idea Award (GSVC 2016), Winner of Automotive and Service Category (Lee Kuan Yew Global Competition 2017), High-Tech Award (Lions Club International 2016), Changemakers for a Connected Society (EGO Ericsson 2015), and Best Business and High-Tech Ideas (StartCup Tuscany 2015). 
-                                <br><br>
-                                Furthermore, he is co-founder and member of the scientific committee of Polo Tecnico Tecnologico in Ascoli Piceno, Italy (PTT-consortium), that aims at realizing joint research laboratories between university and industry; and co-founder of the startup Wriggle Solutions s.l.r.s pursuing the main project "SMARTTyre" (which addresses the safety on the road) recording the patents IT102015000079497 and EUXXX.
-                                <br><br>
-                                Currently, his research areas cover Real-Time Multi-Agent System, Blockchain for Multi-Agent Systems, Explainable Intelligence for Agent and Multi-Agent Systems, and Assistive/Telerehabilitation applications.
-                                <br><br>
-                                Dr. Calvaresi has 30 accepted papers, 111 citations, and h-index 7 (source: Google Scholar date: 24/07/2018)
 
                                 </p>
                             </div>
@@ -667,6 +574,18 @@
                             <div class="latest-posts-classic custom-carousel touch-carousel" data-appeared-items="2">
                                 
                                 
+                                <!-- Post -->
+                                <div class="post-row item">
+                                    <div class="left-meta-post">
+                                        <div class="post-date"><span class="month">DEC</span><span class="month">2018</span></div>
+                                        <div class="post-type"><i class="icon-picture-3"></i></div>
+                                    </div>
+                                    <h3 class="post-title"><a href="single-post.html">BCT4MAS 2019 @ PAAMS</a></h3>
+                                    <div class="post-content">
+                                        <p>The Second International Workshop on Blockchain Technologies for Multi-Agent Systems will be heald the 26-28 June 2019, in Avila, Spain. Don't lose the opportunity of moving a towards this new cross-domain! <a class="read-more" href="https://www.paams.net/workshops/bct4mas">Read More...</a></p>
+                                    </div>
+                                </div>
+
                                 <!-- Post -->
                                 <div class="post-row item">
                                     <div class="left-meta-post">
@@ -849,10 +768,11 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-68521239-3', 'auto');
+  ga('create', 'UA-68521239-1', 'auto');
   ga('send', 'pageview');
 
 </script>
+
 
 
 </body>

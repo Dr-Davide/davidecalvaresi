@@ -5058,3 +5058,17 @@ ul.footer-nav li a:hover {
 .switcher-box .open-switcher i {
 	display: none;
 }
+
+
+/************ DAVIDE **********/
+.thesi-title {
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #eee;
+}
+
+.thesis-year {
+	margin-bottom: 16px;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #eee;
+}

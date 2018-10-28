@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+types: email, social-element
+
+Template:
+
+	<social>
+		<type></type>
+		<title></title>
+		<url></url>
+		<aclass></aclass>
+		<iclass></iclass>
+	</social>
+
+-->
+
+<socials>
+	
+	<social>
+		<type>email</type>
+		<email>imdavide@gmail.com</email>
+	</social>
+
+	<social>
+		<type>social-element</type>
+		<title>Scholar</title>
+		<url>https://scholar.google.it/citations?user=n1TS5xsAAAAJ&amp;hl=it</url>
+		<aclass>google sh-tooltip</aclass>
+		<iclass>ai ai-google-scholar</iclass>
+	</social>
+
+	<social>
+		<type>social-element</type>
+		<title>Researchgate</title>
+		<url>https://www.researchgate.net/profile/Davide_Calvaresi</url>
+		<aclass>twitter sh-tooltip</aclass>
+		<iclass>ai ai-researchgate</iclass>
+	</social>
+
+	<social>
+		<type>social-element</type>
+		<title>Facebook</title>
+		<url>https://www.facebook.com/imdavide</url>
+		<aclass>facebook sh-tooltip</aclass>
+		<iclass>icon-facebook-2</iclass>
+	</social>
+
+	<social>
+		<type>social-element</type>
+		<title>Linkedin</title>
+		<url>ttp://www.linkedin.com/in/davidecalvaresi/</url>
+		<aclass>linkdin sh-tooltip</aclass>
+		<iclass>icon-linkedin</iclass>
+	</social>
+
+	<social>
+		<type>social-element</type>
+		<title>Skype</title>
+		<url>skype:hitroaddave?userinfo</url>
+		<aclass>skype sh-tooltip</aclass>
+		<iclass>icon-skype-2</iclass>
+	</social>
+
+</socials>
